@@ -2,13 +2,13 @@ const toggleBtn = document.getElementById("toggleBtn");
 const btnMessage = document.getElementById("btnMessage");
 const message = document.getElementById("message");
 
-// toggle darkMode
+// toggle lightMode
 let theme = false;
 toggleBtn.addEventListener("click", toggleFunc);
 
 function toggleFunc() {
   theme = !theme;
-  document.body.classList.toggle("darkMode", theme);
+  document.body.classList.toggle("lightMode", theme);
 
   theme ? (toggleBtn.style.color = "#000") : (toggleBtn.style.color = "#fff");
 }
@@ -25,7 +25,3 @@ btnMessage.addEventListener("click", () => {
     if (index > message.length) clearInterval(intervalId);
   }, 100);
 });
-
-
-
-
