@@ -71,9 +71,8 @@ body {
   color: var(--secondary-color);
 }
 #me {
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
-  font-weight: bold;
 }
 #btnMessage {
   padding: 12px 24px;
@@ -107,18 +106,6 @@ button:hover {
 .profile-img img {
   width: 100%;
   filter: grayscale(10);
-}
-.social-links {
-  margin-top: 10px;
-}
-.social-links a {
-  color: var(--secondary-color);
-  font-size: 24px;
-  margin: 0 10px;
-  transition: color 0.3s ease;
-}
-.social-links a:hover {
-  color: var(--button-hover-color);
 }
 
 /* toggle btn */
